@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Command that controls echoing of lines from source files based on whitelists and blacklists.",
   "main": "index.js",
+  "bin": {
+    "line-filter": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./test.sh && echo PASS"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fantasyui-com/line-filter/issues"
   },
-  "homepage": "https://github.com/fantasyui-com/line-filter#readme"
+  "homepage": "https://github.com/fantasyui-com/line-filter#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
