@@ -1,0 +1,19 @@
+{
+  "name": "line-filter",
+  "version": "1.0.0",
+  "description": "Command that controls echoing of lines from source files based on whitelists and blacklists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/line-filter.git"
+  },
+  "author": "fantasyui-com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/line-filter/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/line-filter#readme"
+}
