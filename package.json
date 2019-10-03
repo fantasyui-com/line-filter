@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/fantasyui-com/line-filter#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.20.1"
   }
 }
