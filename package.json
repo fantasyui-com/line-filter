@@ -1,6 +1,6 @@
 {
   "name": "line-filter",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Command that controls echoing of lines from source files based on whitelists and blacklists.",
   "main": "index.js",
   "bin": {
