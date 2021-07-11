@@ -7,13 +7,14 @@
     "line-filter": "./index.js"
   },
   "scripts": {
-    "test": "./test.sh && echo PASS"
+    "test": "./test.sh && echo PASS",
+    "save": "\"save\": \"git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fantasyui-com/line-filter.git"
   },
-  "author": "fantasyui-com",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fantasyui-com/line-filter/issues"
